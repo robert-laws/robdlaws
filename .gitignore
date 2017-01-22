@@ -1,0 +1,7 @@
+node_modules
+src/components/SkiDayList.js
+src/components/SkiDayRow.js
+src/components/SkiDayCount.js
+src/components/AddDayFrom.js
+src/components/AddDayFrom2.js
+dist/assets/bundle.js
