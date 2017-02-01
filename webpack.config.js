@@ -36,7 +36,17 @@ module.exports = {
 				loader: 'style-loader!css-loader!autoprefixer-loader!sass-loader'
 			}
 		]
-	}
+	},
+	plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+            },
+            output: {
+                comments: false,
+            },
+        }),
+    ]
 }
 
 
